@@ -1,0 +1,296 @@
+.shortHR
+{
+	width: 160px;
+}
+
+
+/* 登录界面 login.jsp 样式设定*/
+.login-body
+{
+	background: #fcfeff;
+	background-image:url("../../images/background.jpg"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.loginBtn-div
+{
+    padding-bottom: 10px;
+}
+#login-div
+{
+	margin-top: 100px;
+    background-color: #;
+    border-radius: 50px;
+    /*opacity: 0.8;*/
+    width: 500px;
+    height: 400px;
+    left: 120px;
+    padding-left: 50px;
+    box-shadow: inset 0 0 0 1px #e6e6fa, inset 1px 2px 0 #9999a6, 1px 2px 0 #c0c0c0, -1px 2px 0 #e6e6fa,
+    			2px 3px 0 #e6e6fa, -2px 3px 0 #e6e6fa, 2px 4px 0 #e6e6fa, -2px 4px 0 #e6e6fa,
+				0 2px 0 3px #79797d, 0 4px 0 3px #9999a1, -2px 5px 4px rgba(0,0,0,.6);
+    
+    
+}
+.myLoginBtn
+{
+	height: 48px;
+    width: 64px;
+    font-size: 20px;
+    text-align: center;
+}
+.login-form
+{
+	margin: 50px;
+    /*margin-left: 180px;*/
+    /*margin-right: 180px;*/
+}
+
+.login-caption
+{
+	padding-top: 8px;
+    padding-bottom: 30px;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    height: 100px;
+    text-shadow: 0 1px 0 #c0c0c0, 0 2px #979385;
+}
+.login-input
+{
+	width: 200px !important;
+}
+.loginbtn-primary
+{
+	/*background: #729be6;*/
+    color: white;
+    box-shadow: 0 2px 0 #c0c0c0, 0 2px #979385;
+    background: #227d1e;
+    width: 200px;
+}
+
+.login-tbody>tr>td
+{
+    padding-bottom: 37px;
+	min-width: 50px;
+	border: none !important;
+}
+
+/* 消息栏 main.jsp 样式设定 */
+.message-ul
+{
+	
+	list-style: none;
+}
+
+/**/
+.black_overlay
+{ 
+    display: none; 
+    position: absolute; 
+    top: 0%; 
+    left: 0%; 
+    width: 100%; 
+    height: 100%; 
+    background-color: black; 
+    z-index:1001; 
+    -moz-opacity: 0.8; 
+    opacity:.80; 
+    filter: alpha(opacity=88); 
+} 
+.white_content 
+{ 
+    display: none; 
+    position: absolute; 
+    top: 25%; 
+    left: 25%; 
+    width: 55%; 
+    height: 55%; 
+    padding: 20px; 
+    border: 10px solid orange; 
+    background-color: white; 
+    z-index:1002; 
+    overflow: auto; 
+} 
+
+/*密码修改 passwordChange.jsp*/
+.password-tbody>tr>td
+{
+	min-width: 200px !important;
+}
+
+/*消息列表 main.jsp message.jsp*/
+#message-div
+{
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 50px;
+    position: absolute;
+    width: 1250px;
+}
+.message-li
+{
+	font-size: 18px;
+	min-height: 37px;
+    padding-top: 13px;
+}
+.message-h2
+{
+    text-align: center;
+}
+.message-content
+{   
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 100px;
+    line-height: 37px;
+    margin-top: -5px;
+}
+.message-update
+{
+	position: absolute;
+	margin-top: -50px;
+	margin-left: 1082px
+}
+.message-title
+{
+	margin: 0 0 10px;
+    font-size: 25px;
+}
+/*导出财务报表 outputExcel.jsp 样式设定*/
+.outputExcel-caption
+{
+	position: relative;
+}
+.outputExcel-list
+{
+	float: right;
+}
+
+/*学生秘书分配 studentDistribute.jsp 样式设定*/
+.stuDistri-caption
+{
+	position: relative;
+}
+.stuDistri-list
+{
+	float: right;
+}
+/*学生信息 studentInfo.jsp 样式设定*/
+.stuInfo-tbody>tr>td
+{
+	min-width: 200px;
+}
+.stuInfoTD
+{
+	text-align: left;
+}
+
+/*页脚 footer.jsp*/
+.footer
+{
+	display: flex;
+	/*水平居中*/
+    padding-left: 50%;
+    margin-left: -204px;
+    margin-right: -204px;
+}
+.footer-img
+{
+	margin-top: 17px;
+	vertical-align: middle;
+}
+.footer-p
+{
+	font-size: 15px;
+	color: #5f5b5b;
+}
+/*addStaff 样式设定*/
+.addStaff-tbody>tr>td
+{
+	min-width: 100px;
+}
+.examExecute-tbody>tr>td
+{
+	min-width: 100px;
+}
+.examInfo-tbody>tr>td
+{
+	word-break: break-word;
+	min-width: 100px;
+}
+.examQualified-tbody>tr>td
+{
+	min-width: 100px;
+}
+.previewInfo-tbody>tr>td
+{
+	word-break: break-word;
+	min-width: 100px;
+}
+.timeManage-tbody>tr>td
+{
+	min-width: 40px;
+}
+.showTime-tbody>tr>td
+{
+	min-width: 70px;
+}
+.judgeThesis-tbody>tr>td
+{
+	min-width: 70px;
+}
+.setTime-tbody>tr>td
+{
+	min-width: 40px;
+}
+.menu-ul
+{
+	margin-top: 10px;
+}
+
+.img-staff
+{
+    margin-top: 100px;
+    margin-left: 220px;
+}
+.img-student
+{
+	margin-top: 150px;
+}
+.infoManage-btn1
+{
+    margin-left: -180px;
+}
+.infoManage-btn2
+{
+    margin-left: 160px;
+}
+.infoManage-td
+{
+	border: 0px !important;
+}
+.redirect-body
+{
+	background-color: #fefefe;
+}
+.redirect-p
+{
+	font-size: 20px;
+}
+.redirect-img
+{
+	margin-left: 200px;
+}
+.tp
+{
+	bottom: 200px;
+    margin-left: 170px;
+    margin-bottom: 0;
+    border-width: 1px 0 0;
+    position: fixed;
+}
+.login-p-white
+{
+	color: #FFF !important;
+}
